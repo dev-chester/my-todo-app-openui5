@@ -42,7 +42,7 @@
 							</SegmentedButton>
 						</contentMiddle>
 						<contentRight>
-							<Button id="clearCompleted" enabled="{/itemsRemovable}" icon="sap-icon://delete" text="{i18n>CLEAR_COMPLETED}" press=".clearCompleted"/>
+							<Button id="clearCompleted" enabled="{/itemsRemovable}" icon="sap-icon://delete" text="{i18n>CLEAR_COMPLETED}" press="clearCompleted"/>
 						</contentRight>
 					</Bar>
 				</footer>
